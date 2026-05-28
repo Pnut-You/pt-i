@@ -1,0 +1,36 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Thu May 28 13:56:28"
+  rime_version: 1.13.1
+
+patch:
+  style:
+    horizontal: true          # 横排
+    color_scheme: macos_light
+    color_scheme_dark: macos_dark
+    font_face: "Microsoft YaHei"
+    font_point: 15
+    inline_preedit: true
+    corner_radius: 10
+    hilite_corner_radius: 8
+
+  preset_color_schemes:
+    macos_light:
+      back_color: 0xFFFFFF
+      candidate_text_color: 0x333333
+      comment_text_color: 0x333333
+      label_color: 0x5B5B5B
+      hilited_back_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x9A8150
+      hilited_candidate_text_color: 0xFFFFFF
+
+    macos_dark:
+      back_color: 0x333333
+      candidate_text_color: 0xFFFFFF
+      comment_text_color: 0xFFFFFF
+      label_color: 0xFFFFFF
+      hilited_back_color: 0x333333
+      hilited_candidate_back_color: 0x9A8150
+      hilited_candidate_text_color: 0xFFFFFF
